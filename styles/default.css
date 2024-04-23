@@ -3,7 +3,10 @@ body{
     background-repeat: inherit;
 }
 h1{
-    color:rgb(184, 132, 0);
+    color:rgb(221, 159, 0);
+}
+h3{
+    color:rgb(141, 89, 0);
 }
 .image{
     width:500px;
@@ -18,8 +21,11 @@ main{
     text-align: center;
 }
 .nearby{
+    background-color:rgba(255, 240, 166, 0.4);
+    max-width:900px;
+    margin: auto;
+    border-radius: 20px;
     text-align: left;
-    border:1px solid blue;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -27,7 +33,7 @@ main{
     gap:25px;
 }
 .link{
-    color:yellow;
+    color:rgb(255, 157, 0);
 }
 .figure{
     background-color: rgb(255,255,255, .4);
@@ -41,6 +47,6 @@ li{
 }
 .name{
     margin-bottom: 10px;
-    color:rgb(228, 163, 0);
+    color:rgb(182, 88, 0);
     font-weight: bold;
 }
