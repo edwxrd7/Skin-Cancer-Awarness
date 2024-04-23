@@ -4,6 +4,12 @@ body{
 }
 h1{
     color:rgb(221, 159, 0);
+    text-shadow:
+    -1px -1px 0 rgb(255, 234, 0),
+    1px -1px 0 rgb(230, 224, 155),
+    -1px 1px 0 rgb(230, 224, 155),
+    1px 1px 0 rgb(255, 234, 0);  
+
 }
 h3{
     color:rgb(141, 89, 0);
