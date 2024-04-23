@@ -1,0 +1,46 @@
+body{
+    background:linear-gradient(90deg, rgb(255, 207, 124),rgb(230, 224, 155),rgb(255,207,124));
+    background-repeat: inherit;
+}
+h1{
+    color:rgb(184, 132, 0);
+}
+.image{
+    width:500px;
+    border-radius:20px;
+}
+.image2{
+    margin-top: 10px;
+    width:200px;
+    border-radius: 10px;
+}
+main{
+    text-align: center;
+}
+.nearby{
+    text-align: left;
+    border:1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap:25px;
+}
+.link{
+    color:yellow;
+}
+.figure{
+    background-color: rgb(255,255,255, .4);
+    text-align: center;
+    border-radius: 20px;
+    width:350px;
+    height:fit-content;
+}
+li{
+    list-style: none;
+}
+.name{
+    margin-bottom: 10px;
+    color:rgb(228, 163, 0);
+    font-weight: bold;
+}
