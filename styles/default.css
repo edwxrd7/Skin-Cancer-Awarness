@@ -17,6 +17,7 @@ h3{
     width:200px;
     border-radius: 10px;
 }
+
 main{
     text-align: center;
 }
@@ -49,4 +50,10 @@ li{
     margin-bottom: 10px;
     color:rgb(182, 88, 0);
     font-weight: bold;
+}
+@media screen and (max-width: 580px){
+    .image{
+        max-width:350px;
+    }
+
 }
